@@ -1,33 +1,33 @@
 /*
- * Copyright (c) 2010, Oracle.
- * All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
- *
- *  * Redistributions of source code must retain the above copyright notice,
- *    this list of conditions and the following disclaimer.
- *  * Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in
- *    the documentation and/or other materials provided with the distribution.
- *  * Neither the name of Oracle nor the names of its
- *    contributors may be used to endorse or promote products derived
- *    from this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
- * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
- * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED 
- * TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
- * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
- * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
- * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
- * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
- */
+Copyright (c) 2010, Oracle.
+* Todos los derechos reservaron.
 
-/* Anagram Game Application */
+* Redistribución y uso dentro fuente y formas binarias, con o sin
+* Modificación, es permitted con la condición de que las condiciones son conocidas:
+
+* * Las redistribuciones de código de fuente deben retener el sobre aviso de copyright,
+* Esta lista de condiciones y el siguiente disclaimer.
+* * Las redistribuciones en forma binaria deben reproducir el sobre aviso
+* De copyright, esta lista de condiciones y el siguiente disclaimer en
+* La documentación y / u otros materiales proporcionados con la distribución.
+* * Tampoco el nombre de Oracle ni los nombres de sus
+* Colaboradores pueden soler aprobar o promover los productos derivaron
+* De este software sin permiso escrito previo específico.
+
+* ESTE SOFTWARE ES PROPORCIONADO POR LOS TITULARES de PROPIEDAD Y COLABORADORES
+* "MIENTRAS ES" Y CUALESQUIERA EXPRESAN O va IMPLICAR GARANTÍAS, INCLUYENDO, PERO NO
+* LIMITADO A, EL va IMPLICAR GARANTÍAS DE MERCHANTABILITY Y FITNESS PARA
+* Un PROPÓSITO PARTICULAR ES DISCLAIMED. EN NINGUNA EVENTO EL COPYRIGHT
+* OWNER O COLABORADORES SER propenso POR CUALQUIER DIRECTO, INDIRECTO, INCIDENTAL,
+* ESPECIAL, EJEMPLAR, O DAÑOS CONSECUENTES (INCLUYENDO, PERO NO LIMITADO
+* A, APROVISIONAMIENTO DE BIENES de SUSTITUTO O SERVICIOS; PÉRDIDA DE USO, DATO, O
+* BENEFICIOS; O INTERRUPCIÓN EMPRESARIAL) EMBARGO CAUSADO Y EN CUALQUIER TEORÍA DE
+* RESPONSABILIDAD, SI DENTRO CONTRATO, ESTRICTA RESPONSABILIDAD, O TORT (INCLUYENDO
+* NEGLIGENCIA O CONTRARIO) surgir en cualquier MODO FUERA DEL USO DE ESTE
+* SOFTWARE, INCLUSO SI ACONSEJADO DE LA POSIBILIDAD DE TAL DAÑO.
+*/
+
+// * Anagram Aplicación de juego /
 
 package com.toy.anagrams.lib;
 
