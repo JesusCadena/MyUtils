@@ -1,36 +1,7 @@
 //CATALÁN
 /*
 Copyright (c) 2010, Oracle.
-=======
 * Tots els drets van reservar.
-* Redistribución y uso dentro fuente y formas binarias, con o sin
-* Modificación, es permitted con la condición de que las condiciones son conocidas:
-
-* * Las redistribuciones de código de fuente deben retener el sobre aviso de copyright,
-* Esta lista de condiciones y el siguiente disclaimer.
-* * Las redistribuciones en forma binaria deben reproducir el sobre aviso
-* De copyright, esta lista de condiciones y el siguiente disclaimer en
-* La documentación y / u otros materiales proporcionados con la distribución.
-* * Tampoco el nombre de Oracle ni los nombres de sus
-* Colaboradores pueden soler aprobar o promover los productos derivaron
-* De este software sin permiso escrito previo específico.
-
-* ESTE SOFTWARE ES PROPORCIONADO POR LOS TITULARES de PROPIEDAD Y COLABORADORES
-* "MIENTRAS ES" Y CUALESQUIERA EXPRESAN O va IMPLICAR GARANTÍAS, INCLUYENDO, PERO NO
-* LIMITADO A, EL va IMPLICAR GARANTÍAS DE MERCHANTABILITY Y FITNESS PARA
-* Un PROPÓSITO PARTICULAR ES DISCLAIMED. EN NINGUNA EVENTO EL COPYRIGHT
-* OWNER O COLABORADORES SER propenso POR CUALQUIER DIRECTO, INDIRECTO, INCIDENTAL,
-* ESPECIAL, EJEMPLAR, O DAÑOS CONSECUENTES (INCLUYENDO, PERO NO LIMITADO
-* A, APROVISIONAMIENTO DE BIENES de SUSTITUTO O SERVICIOS; PÉRDIDA DE USO, DATO, O
-* BENEFICIOS; O INTERRUPCIÓN EMPRESARIAL) EMBARGO CAUSADO Y EN CUALQUIER TEORÍA DE
-* RESPONSABILIDAD, SI DENTRO CONTRATO, ESTRICTA RESPONSABILIDAD, O TORT (INCLUYENDO
-* NEGLIGENCIA O CONTRARIO) surgir en cualquier MODO FUERA DEL USO DE ESTE
-* SOFTWARE, INCLUSO SI ACONSEJADO DE LA POSIBILIDAD DE TAL DAÑO.
-*/
-//CASTELLANO
-/*/ * Anagram Aplicación de juego /
-=======
-* Todos los derechos reservaron.
 
 * Redistribució i ús dins font i formes binàries, amb o sense
 * modificació, és permitted amb la condició que les condicions següents són conegudes:
@@ -57,31 +28,7 @@ Copyright (c) 2010, Oracle.
 * PROGRAMARI, FINS I TOT SI ACONSELLAT DE LA POSSIBILITAT DE TAL DANY. 
 */
 
-/* Anagram Aplicació de joc */
-
-
-package com.toy.anagrams.lib;
-
-/**
- * Implementation of the logic for the Anagram Game application.
- */
-final class StaticWordLibrary extends WordLibrary {
-
-    private static final String[] WORD_LIST = {
-        "abstraction",
-        "ambiguous",
-        "arithmetic",
-        "backslash",
-        "bitmap",
-        "circumstance",
-        "combination",
-        "consequently",
-        "consortium",
-        "decrementing",
-        "dependency",
-        "disambiguate",
-        "dynamic",
-        "encapsulation",
+/* Anagram Aplicació de joc /
         "equivalent",
         "expression",
         "facilitate",
