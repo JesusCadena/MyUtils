@@ -44,13 +44,11 @@ public static int edat (int day, int month, int year)
   
     //Se crea un objeto con la fecha actual
         String fecha="";
+        if(((day>0)&&(day<=31))&&(month>0)&&(month<=12)){
         fecha=fecha+Integer.toString(day)+"-"+Integer.toString(month)+"-"+Integer.toString(year);
         
         Date fechaNac=null;
         try {
-            /**Se puede cambiar la mascara por el formato de la fecha
-            que se quiera recibir, por ejemplo año mes día "yyyy-MM-dd"
-            en este caso es día mes año*/
             fechaNac = new SimpleDateFormat("dd-MM-yyyy").parse(fecha);
         } catch (Exception ex) {
             System.out.println("Error:"+ex);
@@ -67,9 +65,12 @@ public static int edat (int day, int month, int year)
         year = fechaActual.get(Calendar.YEAR)- fechaNacimiento.get(Calendar.YEAR);
         
         
-        //Se ajusta el año dependiendo el mes y el día
-        if(month<0 || (month==0 && day<0)){
-            year--;
+            //Se ajusta el año dependiendo el mes y el día
+            if(month<0 || (month==0 && day<0)){
+                year--;
+            }
+        }else{
+            System.out.println("ERROR de valores ingresados");
         }
         //Regresa la edad en base a la fecha de nacimiento
         return year;
