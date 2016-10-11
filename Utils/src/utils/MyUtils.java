@@ -4,6 +4,10 @@
  */
 package utils;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 /**
  *
  * @author X
@@ -37,9 +41,40 @@ public static String inverteix (String cadena)
  */
 public static int edat (int day, int month, int year)
 {   
+  
+    //Se crea un objeto con la fecha actual
+        String fecha="";
+        fecha=fecha+Integer.toString(day)+"-"+Integer.toString(month)+"-"+Integer.toString(year);
+        
+        Date fechaNac=null;
+        try {
+            /**Se puede cambiar la mascara por el formato de la fecha
+            que se quiera recibir, por ejemplo año mes día "yyyy-MM-dd"
+            en este caso es día mes año*/
+            fechaNac = new SimpleDateFormat("dd-MM-yyyy").parse(fecha);
+        } catch (Exception ex) {
+            System.out.println("Error:"+ex);
+        }
+        
+        Calendar fechaNacimiento = Calendar.getInstance();
+        
+        Calendar fechaActual = Calendar.getInstance();
+        //Se asigna la fecha recibida a la fecha de nacimiento.
+        fechaNacimiento.setTime(fechaNac);
+        //Se restan la fecha actual y la fecha de nacimiento
+        day = fechaActual.get(Calendar.DATE)- fechaNacimiento.get(Calendar.DATE);
+        month =fechaActual.get(Calendar.MONTH)- fechaNacimiento.get(Calendar.MONTH);
+        year = fechaActual.get(Calendar.YEAR)- fechaNacimiento.get(Calendar.YEAR);
+        
+        
+        //Se ajusta el año dependiendo el mes y el día
+        if(month<0 || (month==0 && day<0)){
+            year--;
+        }
+        //Regresa la edad en base a la fecha de nacimiento
+        return year;
     
-    int resultat=0;
-    return resultat;
+    //return resultat;
 }
 
 /**

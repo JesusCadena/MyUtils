@@ -18,6 +18,7 @@ public class Utiles {
         // TODO code application logic here
         String mostrar;
         System.out.println(MyUtils.inverteix("HOLA MUNDO"));
+        System.out.println(MyUtils.edat(28, 04, 1991));
     }
     
 }
