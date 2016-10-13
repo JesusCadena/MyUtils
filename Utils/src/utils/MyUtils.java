@@ -41,7 +41,7 @@ public static String inverteix (String cadena)
  */
 public static int edat (int day, int month, int year)
 {   
-  
+    
     //Se crea un objeto con la fecha actual
         String fecha="";
         if(((day>0)&&(day<=31))&&(month>0)&&(month<=12)){
@@ -72,6 +72,7 @@ public static int edat (int day, int month, int year)
         }else{
             System.out.println("ERROR de valores ingresados");
         }
+        
         //Regresa la edad en base a la fecha de nacimiento
         return year;
     
@@ -85,10 +86,14 @@ public static int edat (int day, int month, int year)
  */
 public static double factorial (double numero) {
  
-if (numero==0)
-return 1;
+if (numero==0){
+    return 1;
+}else if(numero<0){
+    return -1;
+}
 else
 {
+
 double resultat = numero * factorial(numero-1);
 return resultat;
 }
